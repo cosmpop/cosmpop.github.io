@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+        <title>Big Data Game</title>
+        <link rel="stylesheet" href="css/app.css">
+    </head>
+    <body>
+        <div class="warning">
+            <p id="warning">PLEASE ROTATE YOUR DEVICE.</p>
+            <img src="assets/buttons/rotate.png" alt="Rotate your device">
+        </div>
+        <main>
+            <div class="fill top"></div>
+            <div class="game-wrapper">
+                <div id="game"></div>
+                <div id="controls">
+                    <div class="control" id="left"></div>
+                    <div class="control" id="right"></div>
+                    <div class="control" id="up"></div>
+                </div>
+            </div>
+            <div class="fill bottom"></div>
+            <div id="intro" class="screen hidden">
+                <p>THE LIFE OF A DATA ENGINEER...</p>
+                <p>PRESS ANY BUTTON TO PLAY</p>
+            </div>
+            <div id="outro-background" class="screen hidden"></div>
+            <div id="outro-actions" class="screen hidden">
+                <a href="https://www.firebolt.io/" title="Firebolt | Cloud Data Warehouse" target="_blank">
+                    <img src="assets/scene11/outro/link.png" alt="Firebolt, Cloud Data Warehouse"/>
+                </a>
+                <img id="restart" src="assets/scene11/outro/restart.png" alt="Restart the game"/>
+            </div>
+        </main>
+    </body>
+
+    <script type="module" src="js/index.js"></script>
+</html>
