@@ -21,7 +21,7 @@ export default {
     MIN_GAME_RATIO: 2,
     MAX_GAME_RATIO: 3.3,
     // CDN
-    ASSETS_URL: '.',
+    ASSETS_URL: 'https://cosmpop.github.io/assets/',
     // Debug
     DEBUG: false,
     DEBUG_POINT: '',
